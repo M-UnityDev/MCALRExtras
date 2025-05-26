@@ -9,16 +9,14 @@ terminal-box: "terminal_box_*.png"
   top = 30%
   height = 50%
   menu_pixmap_style = "menu_*.png"
-  item_color = "#ffffff"  
+  item_color = "#ff0000"  
   item_height = 30
   item_spacing = 1
   item_padding = 1
-  selected_item_color= "#f2f2f2"
+  selected_item_color= "#160000"
   selected_item_pixmap_style = "select_*.png"
   item_icon_space = 0
-  scrollbar = true
-  scrollbar_width = 10
-  scrollbar_thumb = "slider_*.png"
+  scrollbar = false
 }
 + progress_bar {
   id = "__timeout__"
